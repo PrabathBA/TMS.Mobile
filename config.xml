@@ -85,4 +85,7 @@
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
     <allow-navigation href="http://192.168.1.2:8100" sessionid="2def0740" />
     <engine name="android" spec="7.0.0" />
+    <plugin name="phonegap-plugin-push" spec="^2.1.3">
+        <variable name="FCM_VERSION" value="11.6.2" />
+    </plugin>
 </widget>
